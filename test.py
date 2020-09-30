@@ -34,7 +34,7 @@ def main():
     """
     tree = ctree()
     # NOTE: you need to have test.csv file as neighbor to this file
-    with open('test.csv') as csvfile:
+    with open('occu.csv') as csvfile:
         reader = csv.reader(csvfile)
         for rid, row in enumerate(reader):
 
